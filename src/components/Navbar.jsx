@@ -4,8 +4,8 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-purple-500">
-          SG
+        <h1 className="text-3xl font-black text-purple-500 tracking-tight">
+          SG.
         </h1>
 
         {/* Nav Links */}
