@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-10"
+      className="relative min-h-[85vh] flex items-center justify-center px-6 overflow-hidden pt-10"
     >
       {/* Background Glow Effects */}
       <div className="absolute top-32 left-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
@@ -24,7 +24,7 @@ function Hero() {
           Hi, I'm
         </p>
 
-        <h1 className="text-6xl md:text-8xl font-extrabold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+        <h1 className="text-6xl md:text-8xl font-extrabold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(168,85,247,0.3)]">
           Shivansh Gera
         </h1>
 
@@ -76,7 +76,7 @@ function Hero() {
             href="https://github.com/ShivanshGera"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-3xl text-slate-400 hover:text-purple-400 transition duration-300"
+            className="text-3xl text-slate-400 hover:text-purple-400 hover:scale-110 transition-all duration-300"
           >
             <FaGithub />
           </a>
@@ -85,7 +85,7 @@ function Hero() {
             href="YOUR_LINKEDIN_URL"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-3xl text-slate-400 hover:text-purple-400 transition duration-300"
+            className="text-3xl text-slate-400 hover:text-purple-400 hover:scale-110 transition-all duration-300"
           >
             <FaLinkedin />
           </a>
