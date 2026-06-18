@@ -1,6 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import resume from "../assets/resume.pdf"
 
 function Hero() {
   return (
@@ -61,7 +62,7 @@ function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-slate-600 rounded-lg hover:border-purple-500 hover:text-purple-400 transition duration-300"
@@ -82,7 +83,7 @@ function Hero() {
           </a>
 
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="https://www.linkedin.com/in/shivanshgera"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl text-slate-400 hover:text-purple-400 hover:scale-110 transition-all duration-300"

@@ -1,3 +1,5 @@
+import resume from "../assets/resume.pdf";
+
 function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-slate-900/30 border-b border-slate-800">
@@ -58,8 +60,9 @@ function Navbar() {
 
         {/* Resume Button */}
         <a
-          href="/resume.pdf"
+          href={resume}
           target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:block px-5 py-2 rounded-full bg-purple-600 hover:bg-purple-700 transition"
         >
           Resume
